@@ -14,6 +14,12 @@ void subtract(int num1,int num2)
     cout<<"The Substraction of the numbers "<<ans<<endl;
 }
 
+void divide(int num1,int num2)
+{
+    int ans=num1/num2;
+    cout<<"The Division of the numbers "<<ans<<endl;
+}
+
 
 
 int main()
