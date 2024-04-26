@@ -3,10 +3,17 @@ using namespace std;
 
 // create Function and perform operation
 
-void multiplication(int number1, int number2){
-    int resultOfTwoNumbers = number1*number2;
-    cout<<"The multiplication of two numbers is : "<<resultOfTwoNumbers<<endl;
+void add(int number1, int number2){
+    int resultOfTwoNumbers = number1+number2;
+    cout<<"The Summation of two numbers is : "<<resultOfTwoNumbers<<endl;
 }
+
+void subtract(int num1,int num2)
+{
+    int ans=num1-num2;
+    cout<<"The Substraction of the numbers "<<ans<<endl;
+}
+
 
 
 int main()
@@ -42,7 +49,7 @@ int main()
     }
     else
     {
-        cout<<"INvalid Try"<<endl;
+        cout<<"Invalid Try"<<endl;
     }
 
 
