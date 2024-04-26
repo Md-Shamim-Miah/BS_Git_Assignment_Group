@@ -3,6 +3,14 @@ using namespace std;
 
 // create Function and perform operation
 
+void subtract(int num1,int num2)
+{
+    int ans=num1-num2;
+    cout<<"The Substraction of the numbers "<<ans<<endl;
+}
+
+
+
 int main()
 {
     while(1){
@@ -36,7 +44,7 @@ int main()
     }
     else
     {
-        cout<<"INvalid Try"<<endl;
+        cout<<"Invalid Try"<<endl;
     }
 
 
