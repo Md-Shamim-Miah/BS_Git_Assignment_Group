@@ -3,6 +3,11 @@ using namespace std;
 
 // create Function and perform operation
 
+void add(int number1, int number2){
+    int resultOfTwoNumbers = number1+number2;
+    cout<<"The Summation of two numbers is : "<<resultOfTwoNumbers<<endl;
+}
+
 void subtract(int num1,int num2)
 {
     int ans=num1-num2;
