@@ -19,6 +19,12 @@ void multiplication(int number1, int number2){
     cout<<"The multiplication of two numbers is : "<<resultOfTwoNumbers<<endl;
 }
 
+void divide(int num1,int num2)
+{
+    int ans=num1/num2;
+    cout<<"The Division of the numbers "<<ans<<endl;
+}
+
 int main()
 {
     while(1){
