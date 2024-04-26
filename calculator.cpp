@@ -3,6 +3,10 @@ using namespace std;
 
 // create Function and perform operation
 
+int add(int number1, int number2){
+    return number1+number2;
+}
+
 int main()
 {
     while(1){
