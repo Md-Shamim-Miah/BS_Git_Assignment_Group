@@ -3,8 +3,9 @@ using namespace std;
 
 // create Function and perform operation
 
-int add(int number1, int number2){
-    return number1+number2;
+void add(int number1, int number2){
+    int resultOfTwoNumbers = number1+number2;
+    cout<<"The Summation of two numbers is : "<<resultOfTwoNumbers<<endl;
 }
 
 int main()
