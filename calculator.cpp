@@ -3,6 +3,12 @@ using namespace std;
 
 // create Function and perform operation
 
+void multiplication(int number1, int number2){
+    int resultOfTwoNumbers = number1*number2;
+    cout<<"The multiplication of two numbers is : "<<resultOfTwoNumbers<<endl;
+}
+
+
 int main()
 {
     while(1){
