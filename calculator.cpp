@@ -14,7 +14,10 @@ void subtract(int num1,int num2)
     cout<<"The Substraction of the numbers "<<ans<<endl;
 }
 
-
+void multiplication(int number1, int number2){
+    int resultOfTwoNumbers = number1*number2;
+    cout<<"The multiplication of two numbers is : "<<resultOfTwoNumbers<<endl;
+}
 
 int main()
 {
