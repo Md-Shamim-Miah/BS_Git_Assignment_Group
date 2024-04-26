@@ -3,10 +3,10 @@ using namespace std;
 
 // create Function and perform operation
 
-void subtract(int num1,int num2)
+void divide(int num1,int num2)
 {
-    int ans=num1-num2;
-    cout<<"The Substraction of the numbers "<<ans<<endl;
+    int ans=num1/num2;
+    cout<<"The Division of the numbers "<<ans<<endl;
 }
 
 
