@@ -8,6 +8,14 @@ void add(int number1, int number2){
     cout<<"The Summation of two numbers is : "<<resultOfTwoNumbers<<endl;
 }
 
+void subtract(int num1,int num2)
+{
+    int ans=num1-num2;
+    cout<<"The Substraction of the numbers "<<ans<<endl;
+}
+
+
+
 int main()
 {
     while(1){
@@ -41,7 +49,7 @@ int main()
     }
     else
     {
-        cout<<"INvalid Try"<<endl;
+        cout<<"Invalid Try"<<endl;
     }
 
 
