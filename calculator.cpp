@@ -61,7 +61,9 @@ void division(int number1, int number2){
     int resultOfTwoNumbers=number1*number2;
     cout<<"The Divison of  of two numbers is:  "<<resultOfTwoNumbers<<endl;
     symbol(number1,number2,resultOfTwoNumbers,'*');
+
 }
+
 int main()
 {
     
