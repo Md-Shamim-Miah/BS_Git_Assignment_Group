@@ -21,8 +21,20 @@ void multiplication(int number1, int number2){
 
 void division(int num1,int num2)
 {
-    int ans=num1/num2;
-    cout<<"The Division of the numbers "<<ans<<endl;
+     string num1Type = (num1 % 2 == 0) ? "Even" : "Odd";
+    string num1Sign = (num1 >= 0) ? "Positive" : "Negative";
+    
+    string num2Type = (num2 % 2 == 0) ? "Even" : "Odd";
+    string num2Sign = (num2 >= 0) ? "Positive" : "Negative";
+
+    int sumResult = num1 + num2;
+    string sumType = (sumResult % 2 == 0) ? "Even" : "Odd";
+    string sumSign = (sumResult >= 0) ? "Positive" : "Negative";
+
+    cout << num1 << " + " << num2 << " = " << sumResult << endl;
+    cout << "(" << num1Type << "; " << num1Sign << ";) + (" 
+         << num2Type << "; " << num2Sign << ";) = (" 
+         << sumType << "; " << sumSign << ";)" << endl;
 }
 
 int main()
