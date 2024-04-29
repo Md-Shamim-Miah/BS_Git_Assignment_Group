@@ -58,9 +58,9 @@ void multiplication(int number1, int number2){
 }
 
 void division(int number1, int number2){
-    int resultOfTwoNumbers=number1*number2;
+    int resultOfTwoNumbers=number1/number2;
     cout<<"The Divison of  of two numbers is:  "<<resultOfTwoNumbers<<endl;
-    symbol(number1,number2,resultOfTwoNumbers,'*');
+    symbol(number1,number2,resultOfTwoNumbers,'/');
 
 }
 
@@ -69,11 +69,11 @@ int main()
     
     int num1,num2;
     char operation;
-    // cout<<"Enter the first number : ";
+    cout<<"Enter the first number : ";
     cin>>num1;
-    // cout<<"Enter the second number : ";
+    cout<<"Enter the second number : ";
     cin>>num2;
-    // cout<<"Enter The Operation : ";
+    cout<<"Enter The Operation : ";
     cin>>operation;
 
     if(operation == '+')
